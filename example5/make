@@ -1,0 +1,9 @@
+CC = gcc
+shop : main.c menu.o guest.o
+	$(CC) -o shop main.c menu.o guest.o
+menu.o: menu.c menu.h
+	$(CC) -c menu.c -o menu.o
+guest.o: guest.c guest.h
+	$(CC)  -c guest.c
+clean:
+	rm *.o shop

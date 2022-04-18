@@ -1,0 +1,8 @@
+example
+hello.txt
+lazy_dog.txt
+ls-error.txt
+ls-output.txt
+ls.txt
+test.c
+text.txt
